@@ -4,18 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do List</title>
+    <script src="https://kit.fontawesome.com/5706a27a8e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="todolist">
-        <div>
+    <section class="todolist borderBottom">
+        <div class="header borderBottom">
             <h1>Today's To Do</h1>
+            <span class="fa-solid fa-arrows-rotate"></span>
         </div>
-        <form action="#" method="post">
-            <input type="text">
-            <ul>
-                <li>
-                    <input type="checkbox" name="" id="">
-                    Wash the dishes
+        <form class="todoForm">
+            <div class="borderBottom">
+                <input type="text" placeholder="Add to your list">
+                <button type="submit">&#8626;</button>
+            </div>            
+            <ul class="list">
+                <li class="borderBottom listItem">
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <span>Wash the dishes</span>                        
+                    </div>
+                    <span class="fa-solid fa-ellipsis-vertical"></span>
+                </li>
+                <li class="borderBottom listItem">
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <span>Wash the dishes</span>                        
+                    </div>
+                    <span class="fa-solid fa-ellipsis-vertical"></span>
                 </li>
             </ul>
             <button>Clear All Completed</button>
