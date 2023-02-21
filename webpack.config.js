@@ -8,27 +8,26 @@ module.exports = {
     static: {
       directory: path.resolve(__dirname, 'src'),
     },
-
-    plugins: [
-      new HtmlWebpackPlugin({
-        template: './src/index.html',
-      }),
+    compress: true,
+    port: 8080,
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
+  ],
+  output: {
+    filename: '[name].js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+  optimization: {
+    runtimeChunk: 'single',
+  },
+  module: {
+    rules: [
+      { test: /\.css$/, use: 'css-loader' },
+      { test: /\.ts$/, use: 'ts-loader' },
     ],
-    output: {
-      filename: '[name].js',
-      path: path.resolve(__dirname, 'dist'),
-    },
-    optimization: {
-      runtimeChunk: 'single',
-    },
-    module: {
-      rules: [
-        {
-          test: /\.css$/i,
-          use: ['style-loader', 'css-loader'],
-        },
-      ],
-    },
   },
 
 };

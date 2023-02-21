@@ -14,9 +14,12 @@ function addTasks() {
     const todo = MyTasks[i];
     const listItem = document.createElement('li');
     listItem.classList.add('listItem');
+    listItem.classList.add('borderBottom');
     listItem.innerHTML = `
-      <input type="checkbox" name="" id="">
-      <p>${todo.todoEntry}</p>
+      <div class="inputEntry">
+        <input type="checkbox" name="" id="">
+        <p>${todo.todoEntry}</p>      
+      </div>
       <i class="fa-solid fa-ellipsis-vertical"></i>
     `;
     todoList.appendChild(listItem);
