@@ -10,19 +10,20 @@
 <body>
     <section class="todolist borderBottom">
         <div class="header borderBottom">
-            <h1>Today's To Do</h1>
+            <p>Today's To Do</p>
             <span class="fa-solid fa-arrows-rotate"></span>
         </div>
         <form class="todoForm">
-            <div class="borderBottom">
+            <div class="borderBottom input">
                 <input type="text" placeholder="Add to your list" class="listInput">
                 <button type="submit" class="inputButton">&#8626;</button>
             </div>            
-            <ul class="list">
+            <ul class="list">                
             </ul>
-            <button>Clear All Completed</button>
+            <div class="clear">
+                <button class="clearBtn">Clear All Completed</button>
+            </div>
         </form>
-    </section>
-    <script src="../src/index.js"></script>
+    </section>    
 </body>
 </html>

@@ -1,54 +1,30 @@
-// dom selectors
-const todoInput = document.querySelector('.listInput');
-const inputButton = document.querySelector('.inputButton');
-const todoList = document.querySelector('.list');
-class ListItem {
-  constructor(description, completed, index) {
-    this.description = description;
-    this.completed = completed;
-    this.index = index;
-  }
-}
-const list = [];
+import './style.css';
 
-// function declarations
-const addTodo = (event) => {
-  event.preventDefault();
-  let description = todoInput.value;
-  let completed = false;
-  let index;
-  let len = list.length; 
-  if (len === 0) {
-    index = 0;
-  } else {
-    index = len - 1;
-  }
+const MyTasks = [
+  { todoEntry: 'wash plates', index: 0, completed: false },
+  { todoEntry: 'wash cars', index: 1, completed: false },
+  { todoEntry: 'clean office', index: 2, completed: false },
+];
 
-  list.push(new ListItem(description, completed, index));
-  const todoItem = `
-  <li class="borderBottom listItem">
-  <div>
-      <input type="checkbox" name="" id="">
-      <span>${description}</span>                        
-  </div>
-  <span class="fa-solid fa-ellipsis-vertical"></span>
-</li>
-  `;
-  todoList.innerHTML += todoItem;
-  todoInput.value = '';
-};
+// functions
 
-const saveTodo = (todo) => {
-  let todos;
-  if (localStorage.getItem('todos') === null) {
-    todos = [];
-  } else {
-    todos = JSON.parse(localStorage.getItem('todos'));
-
-    todos.push(todo);
-    localStorage.setItem('todos', JSON.stringify(todos))
+function addTasks() {
+  const todoList = document.querySelector('.list');
+  for (let i = 0; i < MyTasks.length; i += 1) {
+    const todo = MyTasks[i];
+    const listItem = document.createElement('li');
+    listItem.classList.add('listItem');
+    listItem.classList.add('borderBottom');
+    listItem.innerHTML = `
+      <div class="inputEntry">
+        <input type="checkbox" name="" id="">
+        <p>${todo.todoEntry}</p>      
+      </div>
+      <i class="fa-solid fa-ellipsis-vertical"></i>
+    `;
+    todoList.appendChild(listItem);
   }
 }
 
-// event listeners
-inputButton.addEventListener('click', addTodo);
+// Event listeners
+window.addEventListener('DOMContentLoaded', addTasks);
