@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>To-do List</title>
+    <script src="https://kit.fontawesome.com/5706a27a8e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+    <section class="todolist borderBottom">
+        <div class="header borderBottom">
+            <h1>Today's To Do</h1>
+            <span class="fa-solid fa-arrows-rotate"></span>
+        </div>
+        <form class="todoForm">
+            <div class="borderBottom">
+                <input type="text" placeholder="Add to your list" class="listInput">
+                <button type="submit" class="inputButton">&#8626;</button>
+            </div>            
+            <ul class="list">                
+            </ul>
+            <button class="enterBtn">Clear All Completed</button>
+        </form>
+    </section>    
 </body>
 </html>
