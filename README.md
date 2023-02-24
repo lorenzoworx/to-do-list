@@ -36,7 +36,8 @@ After you're finished please remove all the comments and instructions!
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)  
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -72,6 +73,15 @@ In this project, we are required to build a simple HTML list of To Do tasks.
 - **[Use webpack to bundle JavaScript.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+For a live demo to the project, follow the link below
+
+- [Live Demo Link](https://lorenzoworx.github.io/to-do-list/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- GETTING STARTED -->
