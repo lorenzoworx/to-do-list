@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do List</title>
     <script src="https://kit.fontawesome.com/5706a27a8e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
 <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
 <body>
     <section class="todolist borderBottom">
@@ -15,7 +14,7 @@
         </div>
         <form class="todoForm">
             <div class="borderBottom input">
-                <input type="text" placeholder="Add to your list" class="listInput">
+                <input type="text" placeholder="Add to your list" class="listInput"  required>
                 <button type="submit" class="inputButton">&#8626;</button>
             </div>            
             <ul class="list">                
@@ -24,6 +23,7 @@
                 <button class="clearBtn">Clear All Completed</button>
             </div>
         </form>
-    </section>    
+        <div class="notification"></div>
+    </section>   
 </body>
 </html>
