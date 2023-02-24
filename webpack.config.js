@@ -4,13 +4,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
-  devServer: {
-    static: {
-      directory: path.resolve(__dirname, 'src'),
-    },
-    compress: true,
-    port: 8080,
-  },
+  // devServer: {
+  //   static: {
+  //     directory: path.resolve(__dirname, 'src'),
+  //   },
+  //   compress: true,
+  //   port: 808,
+  // },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',

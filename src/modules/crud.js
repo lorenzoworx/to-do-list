@@ -18,7 +18,7 @@ export default class List {
     });
   }
 
-  static addTask() {
+  addTask() {
     const todoInput = document.querySelector('.listInput');
     const description = todoInput.value;
     const newTask = new Task(description, this.myTasks.length + 1);
@@ -44,18 +44,6 @@ export default class List {
       task.index = index + 1;
     });
     this.updateLocalStore();
-  }
-
-  markComplete(index, value) {
-    this.myTasks[index].completed = value;
-    this.updateLocalStore();
-  }
-
-  clearComplete() {
-    this.myTasks = this.myTasks.filter((element) => !element.completed);
-    this.updateIndex();
-    taskList.innerHTML = '';
-    this.displayTasks();
   }
 
   restoreList() {
