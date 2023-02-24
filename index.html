@@ -6,7 +6,7 @@
     <title>To-do List</title>
     <script src="https://kit.fontawesome.com/5706a27a8e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-<script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+</head>
 <body>
     <section class="todolist borderBottom">
         <div class="header borderBottom">
@@ -15,7 +15,7 @@
         </div>
         <form class="todoForm">
             <div class="borderBottom input">
-                <input type="text" placeholder="Add to your list" class="listInput">
+                <input type="text" placeholder="Add to your list" class="listInput"  required>
                 <button type="submit" class="inputButton">&#8626;</button>
             </div>            
             <ul class="list">                
@@ -24,7 +24,8 @@
                 <button class="clearBtn">Clear All Completed</button>
             </div>
         </form>
-    </section> 
-    <script src="index.js"></script>   
+        <div class="notification"></div>
+    </section>
+    <script src="index.js" type="module"></script>   
 </body>
 </html>

@@ -81,3 +81,15 @@ body {
   border: none;
   background-color: whitesmoke;
 }
+
+.hide { display: none; }
+
+#editInput {
+  border: none;
+  outline: none;
+}
+
+#editInput:focus {
+  border: none;
+  outline: none;
+}
