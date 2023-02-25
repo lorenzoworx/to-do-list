@@ -55,4 +55,16 @@ export default class List {
     }
     this.displayTasks();
   }
+
+  markComplete(index, value) {
+    this.myTasks[index].completed = value;
+    this.updateLocalStore();
+  }
+
+  clearComplete() {
+    this.myTasks = this.myTasks.filter((element) => !element.completed);
+    this.updateIndex();
+    taskList.innerHTML = '';
+    this.displayTasks();
+  }
 }

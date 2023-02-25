@@ -93,3 +93,7 @@ body {
   border: none;
   outline: none;
 }
+
+.completed {
+  text-decoration: line-through;
+}

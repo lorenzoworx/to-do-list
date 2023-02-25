@@ -1,5 +1,6 @@
 import './style.css';
 import List from './modules/crud.js';
+import setStatus from './modules/status.js';
 
 const newList = new List();
 newList.restoreList();
@@ -59,4 +60,21 @@ taskList.addEventListener('click', (e) => {
     const index = li.querySelector('.inputEntry').id;
     newList.deleteTask(index);
   }
+});
+
+taskList.addEventListener('change', (e) => {
+  if (e.target.id === 'checkbox') {
+    const index = setStatus(e);
+    if (e.target.checked) {
+      e.target.nextElementSibling.classList.add('completed');
+    } else {
+      e.target.nextElementSibling.classList.remove('completed');
+    }
+    newList.markComplete(index, e.target.checked);
+  }
+});
+const clearCompleted = document.querySelector('.clearBtn');
+clearCompleted.addEventListener('click', (e) => {
+  e.preventDefault();
+  newList.clearComplete();
 });

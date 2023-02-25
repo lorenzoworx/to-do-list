@@ -9,7 +9,7 @@ module.exports = {
       directory: path.resolve(__dirname, 'src'),
     },
     compress: true,
-    port: 808,
+    port: 8080,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -25,8 +25,10 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.css$/, use: 'css-loader' },
-      { test: /\.ts$/, use: 'ts-loader' },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
 
