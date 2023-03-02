@@ -8,6 +8,7 @@
     "start": "webpack serve --open",
     "build": "webpack"
   },
+ 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lorenzoworx/webpackTemplate.git"
