@@ -1,5 +1,5 @@
 import Storage from './storage.js';
-import { taskList, renderList } from './render.js';
+import { renderList } from './render.js';
 import Task from './task.js';
 
 export default class List {
@@ -13,14 +13,13 @@ export default class List {
   }
 
   displayTasks() {
+    renderList([], true);
     this.myTasks.forEach((task) => {
       renderList(task);
     });
   }
 
-  addTask() {
-    const todoInput = document.querySelector('.listInput');
-    const description = todoInput.value;
+  addTask(description) {
     const newTask = new Task(description, this.myTasks.length + 1);
     renderList(newTask);
     this.myTasks.push(newTask);
@@ -35,7 +34,7 @@ export default class List {
   deleteTask(index) {
     this.myTasks.splice(index, 1);
     this.updateIndex();
-    taskList.innerHTML = '';
+    // taskList.innerHTML = '';
     this.displayTasks();
   }
 
@@ -64,7 +63,7 @@ export default class List {
   clearComplete() {
     this.myTasks = this.myTasks.filter((element) => !element.completed);
     this.updateIndex();
-    taskList.innerHTML = '';
+    // taskList.innerHTML = '';
     this.displayTasks();
   }
 }

@@ -1,5 +1,10 @@
 const taskList = document.querySelector('.list');
-function renderList(task) {
+function renderList(task, render = false) {
+  const taskList = document.querySelector('.list');
+
+  if (render) {
+    taskList.innerHTML = '';
+  }
   let completedStatus = '';
   let checkboxStatus = '';
   if (task.completed) {
