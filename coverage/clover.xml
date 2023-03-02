@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1677769427987" clover="3.2.0">
-  <project timestamp="1677769427987" name="All files">
-    <metrics statements="46" coveredstatements="30" conditionals="8" coveredconditionals="5" methods="17" coveredmethods="11" elements="71" coveredelements="46" complexity="0" loc="46" ncloc="46" packages="1" files="4" classes="4"/>
-    <file name="crud.js" path="C:\Users\Pro Guy\Desktop\microverse\ikoote-projects\IMPORTANT FILES AND TOOLS\to-do-list\src\modules\crud.js">
+<coverage generated="1677775438674" clover="3.2.0">
+  <project timestamp="1677775438674" name="All files">
+    <metrics statements="47" coveredstatements="31" conditionals="10" coveredconditionals="7" methods="17" coveredmethods="11" elements="74" coveredelements="49" complexity="0" loc="47" ncloc="47" packages="1" files="4" classes="4"/>
+    <file name="crud.js" path="/home/lorenzo/Documents/microverseNew/module2/block2/to-do-list/src/modules/crud.js">
       <metrics statements="28" coveredstatements="16" conditionals="2" coveredconditionals="0" methods="13" coveredmethods="8"/>
       <line num="7" count="2" type="stmt"/>
       <line num="8" count="2" type="stmt"/>
@@ -33,8 +33,8 @@
       <line num="65" count="0" type="stmt"/>
       <line num="67" count="0" type="stmt"/>
     </file>
-    <file name="render.js" path="C:\Users\Pro Guy\Desktop\microverse\ikoote-projects\IMPORTANT FILES AND TOOLS\to-do-list\src\modules\render.js">
-      <metrics statements="10" coveredstatements="8" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
+    <file name="render.js" path="/home/lorenzo/Documents/microverseNew/module2/block2/to-do-list/src/modules/render.js">
+      <metrics statements="11" coveredstatements="9" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
       <line num="3" count="5" type="stmt"/>
       <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
@@ -44,9 +44,10 @@
       <line num="10" count="5" type="cond" truecount="1" falsecount="1"/>
       <line num="11" count="0" type="stmt"/>
       <line num="12" count="0" type="stmt"/>
-      <line num="14" count="5" type="stmt"/>
+      <line num="14" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="4" type="stmt"/>
     </file>
-    <file name="storage.js" path="C:\Users\Pro Guy\Desktop\microverse\ikoote-projects\IMPORTANT FILES AND TOOLS\to-do-list\src\modules\storage.js">
+    <file name="storage.js" path="/home/lorenzo/Documents/microverseNew/module2/block2/to-do-list/src/modules/storage.js">
       <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <line num="2" count="2" type="stmt"/>
       <line num="3" count="0" type="stmt"/>
@@ -54,7 +55,7 @@
       <line num="7" count="2" type="stmt"/>
       <line num="8" count="4" type="stmt"/>
     </file>
-    <file name="task.js" path="C:\Users\Pro Guy\Desktop\microverse\ikoote-projects\IMPORTANT FILES AND TOOLS\to-do-list\src\modules\task.js">
+    <file name="task.js" path="/home/lorenzo/Documents/microverseNew/module2/block2/to-do-list/src/modules/task.js">
       <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <line num="3" count="3" type="stmt"/>
       <line num="4" count="3" type="stmt"/>

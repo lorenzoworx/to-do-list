@@ -11,7 +11,8 @@ function renderList(task, render = false) {
     completedStatus = 'completed';
     checkboxStatus = 'checked';
   }
-  taskList.innerHTML += `
+  if (task) {
+    taskList.innerHTML += `
   <li class='listItem borderBottom' id="${task.index - 1}" >
     <div class="inputEntry">
       <input type="checkbox" name="" id="checkbox" ${checkboxStatus}>
@@ -23,6 +24,7 @@ function renderList(task, render = false) {
     <i class="fa-solid fa-trash" id="delete"></i>    
   </li>
   `;
+  }
 }
 
 export { taskList, renderList };

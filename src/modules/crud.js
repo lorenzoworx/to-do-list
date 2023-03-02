@@ -13,7 +13,7 @@ export default class List {
   }
 
   displayTasks() {
-    renderList([], true);
+    renderList(0, true);
     this.myTasks.forEach((task) => {
       renderList(task);
     });
