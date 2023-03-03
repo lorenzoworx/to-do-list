@@ -14,10 +14,10 @@ describe('Mark Completed', () => {
       completed: false,
     };
     const myList = new List();
-    // Add test tas
+    // Add test
     myList.addTask(testObj);
 
-    // Mark as Complete
+    // Mark test as Complete
     const completed = true;
     myList.markComplete(testObj.index, completed);
     myList.displayTasks();// Update html.
