@@ -13,7 +13,9 @@ todosInput.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') {
     e.preventDefault();
     if (todosInput.value) {
-      newList.addTask();
+      const todoInput = document.querySelector('.listInput');
+      const description = todoInput.value;
+      newList.addTask(description);
     }
     todosInput.value = '';
   }
@@ -21,7 +23,9 @@ todosInput.addEventListener('keypress', (e) => {
 
 addTaskBtn.addEventListener('click', (e) => {
   if (e.target.previousElementSibling.value) {
-    newList.addTask();
+    const todoInput = document.querySelector('.listInput');
+    const description = todoInput.value;
+    newList.addTask(description);
   }
   todosInput.value = '';
 });

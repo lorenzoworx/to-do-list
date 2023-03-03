@@ -1,12 +1,18 @@
 const taskList = document.querySelector('.list');
-function renderList(task) {
+function renderList(task, render = false) {
+  const taskList = document.querySelector('.list');
+
+  if (render) {
+    taskList.innerHTML = '';
+  }
   let completedStatus = '';
   let checkboxStatus = '';
   if (task.completed) {
     completedStatus = 'completed';
     checkboxStatus = 'checked';
   }
-  taskList.innerHTML += `
+  if (task) {
+    taskList.innerHTML += `
   <li class='listItem borderBottom' id="${task.index - 1}" >
     <div class="inputEntry">
       <input type="checkbox" name="" id="checkbox" ${checkboxStatus}>
@@ -18,6 +24,7 @@ function renderList(task) {
     <i class="fa-solid fa-trash" id="delete"></i>    
   </li>
   `;
+  }
 }
 
 export { taskList, renderList };
