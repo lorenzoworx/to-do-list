@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-import List from "../crud";
+import List from '../crud.js';
 
 describe('Edit Items in list', () => {
   test('Edited task textContent should be equal to updated description', () => {

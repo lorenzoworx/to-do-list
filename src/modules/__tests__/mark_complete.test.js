@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-import List from "../crud";
+import List from '../crud';
 
 describe('Mark Completed', () => {
   test('Completed task set to true', () => {
