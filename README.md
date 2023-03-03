@@ -145,8 +145,8 @@ npx eslint .
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **Add some good styling **
-- [ ] **Added create a profile feature**
+- [ ] **Some good styling **
+- [ ] **We will add user profile feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
