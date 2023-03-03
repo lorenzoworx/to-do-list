@@ -20,7 +20,6 @@ Todo List Structure
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -114,6 +113,14 @@ Track JavaScript linter errors run:
 ```
 npx eslint .
 ```
+Install jest using:
+```
+npm install --save-dev jest
+```
+Track tests in __tests__/ run:
+```
+npm test
+```
 
 ### Deployment
 
@@ -128,27 +135,17 @@ npx eslint .
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Okolo Oshoke**
-👤 **Ikoote Rasuli**
-
 - GitHub: [@lorenzoworx](https://github.com/lorenzoworx)
 - Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
 - LinkedIn: [Oshoke Okolo]https://www.linkedin.com/in/oshoke-okolo-665208108/)
+
+👤 **Ikoote Rasuli**
 - GitHub: [@ikoote1](https://github.com/ikoote1)
 
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **Some good styling **
-- [ ] **We will add user profile feature**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -175,6 +172,7 @@ If you like this project I promise to follow you back and leave offers open to y
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse team for the great work and support.
+I would also like to thank [Shubham Bhoyar](https://github.com/shubhambhoyar077) for all his support
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
