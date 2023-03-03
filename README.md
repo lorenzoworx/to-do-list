@@ -1,32 +1,6 @@
-# To-Do List
+# To-Do-List-with-Jest-Test
 Todo List Structure
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
+<a name="readme-top">To-Do-List-with-Jest-Test</a>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -46,7 +20,6 @@ After you're finished please remove all the comments and instructions!
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -55,7 +28,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [To-Do-List] <a name="To-Do-List"></a>
 
 In this project, we are required to build a simple HTML list of To Do tasks.
 
@@ -140,6 +113,14 @@ Track JavaScript linter errors run:
 ```
 npx eslint .
 ```
+Install jest using:
+```
+npm install --save-dev jest
+```
+Track tests in __tests__/ run:
+```
+npm test
+```
 
 ### Deployment
 
@@ -154,26 +135,17 @@ npx eslint .
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Okolo Oshoke**
-
 - GitHub: [@lorenzoworx](https://github.com/lorenzoworx)
 - Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
 - LinkedIn: [Oshoke Okolo]https://www.linkedin.com/in/oshoke-okolo-665208108/)
 
+👤 **Ikoote Rasuli**
+- GitHub: [@ikoote1](https://github.com/ikoote1)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -189,9 +161,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+> Checking through my project and review it will bring a great connection between the two of us. Let us connect.
 
-If you like this project...
+If you like this project I promise to follow you back and leave offers open to you all.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,25 +171,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+I would like to thank Microverse team for the great work and support.
+I would also like to thank [Shubham Bhoyar](https://github.com/shubhambhoyar077) for all his support
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
