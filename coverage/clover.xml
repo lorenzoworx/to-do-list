@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1677840079269" clover="3.2.0">
-  <project timestamp="1677840079269" name="All files">
+<coverage generated="1677840859002" clover="3.2.0">
+  <project timestamp="1677840859003" name="All files">
     <metrics statements="47" coveredstatements="40" conditionals="10" coveredconditionals="8" methods="17" coveredmethods="15" elements="74" coveredelements="63" complexity="0" loc="47" ncloc="47" packages="1" files="4" classes="4"/>
     <file name="crud.js" path="C:\Users\Pro Guy\Desktop\microverse\ikoote-projects\IMPORTANT FILES AND TOOLS\to-do-list\src\modules\crud.js">
       <metrics statements="28" coveredstatements="23" conditionals="2" coveredconditionals="0" methods="13" coveredmethods="12"/>
       <line num="7" count="5" type="stmt"/>
       <line num="8" count="5" type="stmt"/>
       <line num="12" count="14" type="stmt"/>
-      <line num="16" count="3" type="stmt"/>
-      <line num="17" count="3" type="stmt"/>
-      <line num="18" count="3" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
       <line num="23" count="8" type="stmt"/>
       <line num="24" count="8" type="stmt"/>
       <line num="25" count="8" type="stmt"/>
@@ -36,16 +36,16 @@
     <file name="render.js" path="C:\Users\Pro Guy\Desktop\microverse\ikoote-projects\IMPORTANT FILES AND TOOLS\to-do-list\src\modules\render.js">
       <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
       <line num="1" count="4" type="stmt"/>
-      <line num="3" count="14" type="stmt"/>
-      <line num="5" count="14" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="3" type="stmt"/>
-      <line num="8" count="14" type="stmt"/>
-      <line num="9" count="14" type="stmt"/>
-      <line num="10" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="16" type="stmt"/>
+      <line num="5" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="8" count="16" type="stmt"/>
+      <line num="9" count="16" type="stmt"/>
+      <line num="10" count="16" type="cond" truecount="2" falsecount="0"/>
       <line num="11" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
-      <line num="14" count="14" type="cond" truecount="2" falsecount="0"/>
-      <line num="15" count="11" type="stmt"/>
+      <line num="14" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="12" type="stmt"/>
     </file>
     <file name="storage.js" path="C:\Users\Pro Guy\Desktop\microverse\ikoote-projects\IMPORTANT FILES AND TOOLS\to-do-list\src\modules\storage.js">
       <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
