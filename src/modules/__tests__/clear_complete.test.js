@@ -14,12 +14,12 @@ describe('Edit Items in list', () => {
     myList.addTask('clean the house');
     myList.addTask('am ikoote');
 
-    // Mark as Completed
+    // Marked as Completed
     const completed = true;
     myList.markComplete(0, completed);
     myList.markComplete(2, completed);
 
-    // Clear Completed task.
+    // Clear all Completed task.
     myList.clearComplete();
     const list = document.querySelectorAll('.list li');
 
